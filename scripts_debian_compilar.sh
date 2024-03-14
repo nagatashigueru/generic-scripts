@@ -22,6 +22,6 @@ enlazados.
 - MPI librerias de desarrollo
 +++++++++++++++++++++++++++++++++++++
 '
-Pkgs="libopenblas-dev liblapack-dev libfftw3-dev gfortran g++ libopenmpi-dev mpi-default-dev make cmake wget git zsh"
+Pkgs="libopenblas-dev liblapack-dev libfftw3-dev gfortran g++ libopenmpi-dev mpi-default-dev make cmake zsh wget git"
 # Comando
 sudo apt install --no-install-recommends $Pkgs
