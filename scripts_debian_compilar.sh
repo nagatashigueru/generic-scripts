@@ -22,8 +22,9 @@ enlazados.
 - MPI librerias de desarrollo
 - make
 - cmake
+- libxc
 +++++++++++++++++++++++++++++++++++++
 '
-Pkgs="libopenblas-dev liblapack-dev libfftw3-dev gfortran g++ libopenmpi-dev mpi-default-dev make cmake"
+Pkgs="libopenblas-dev liblapack-dev libfftw3-dev gfortran g++ libopenmpi-dev mpi-default-dev make cmake libxc-dev"
 # Comando
 sudo apt install --no-install-recommends $Pkgs
