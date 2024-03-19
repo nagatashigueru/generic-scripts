@@ -20,8 +20,10 @@ enlazados.
 - Compilador de c++ g++
 - OpenMPI librerias de desarrollo
 - MPI librerias de desarrollo
+- make
+- cmake
 +++++++++++++++++++++++++++++++++++++
 '
-Pkgs="libopenblas-dev liblapack-dev libfftw3-dev gfortran g++ libopenmpi-dev mpi-default-dev make cmake zsh wget git"
+Pkgs="libopenblas-dev liblapack-dev libfftw3-dev gfortran g++ libopenmpi-dev mpi-default-dev make cmake"
 # Comando
 sudo apt install --no-install-recommends $Pkgs
