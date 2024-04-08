@@ -25,6 +25,6 @@ enlazados.
 - libxc
 +++++++++++++++++++++++++++++++++++++
 '
-Pkgs="libopenblas-dev liblapack-dev libfftw3-dev gfortran g++ libopenmpi-dev mpi-default-dev make cmake libxc-dev"
+Pkgs="libopenblas-dev liblapack-dev libfftw3-dev gfortran g++ libopenmpi-dev mpi-default-dev make cmake libxc-dev python3 python3-distutils"
 # Comando
 sudo apt install --no-install-recommends $Pkgs
